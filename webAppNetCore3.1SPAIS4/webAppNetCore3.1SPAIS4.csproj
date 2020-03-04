@@ -10,7 +10,7 @@
 
     <!-- Set this to true if you enable server-side prerendering -->
     <BuildServerSideRenderer>false</BuildServerSideRenderer>
-    <RootNamespace>webAppNetCore3._1SPAIS4</RootNamespace>
+    <RootNamespace>webAppNetCore31SPAIS4</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace webAppNetCore3._1SPAIS4
+namespace webAppNetCore31SPAIS4
 {
     public class Program
     {

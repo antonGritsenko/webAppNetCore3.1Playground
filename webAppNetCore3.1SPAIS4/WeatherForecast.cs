@@ -1,6 +1,6 @@
 using System;
 
-namespace webAppNetCore3._1SPAIS4
+namespace webAppNetCore31SPAIS4
 {
     public class WeatherForecast
     {

@@ -6,13 +6,13 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.EntityFrameworkCore;
-using webAppNetCore3._1SPAIS4.Data;
-using webAppNetCore3._1SPAIS4.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using webAppNetCore31SPAIS4.Data;
+using webAppNetCore31SPAIS4.Models;
 
-namespace webAppNetCore3._1SPAIS4
+namespace webAppNetCore31SPAIS4
 {
     public class Startup
     {
