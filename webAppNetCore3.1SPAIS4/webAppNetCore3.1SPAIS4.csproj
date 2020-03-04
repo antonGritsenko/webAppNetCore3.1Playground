@@ -11,6 +11,15 @@
     <!-- Set this to true if you enable server-side prerendering -->
     <BuildServerSideRenderer>false</BuildServerSideRenderer>
     <RootNamespace>webAppNetCore31SPAIS4</RootNamespace>
+    <Configurations>Debug;Release;AddDefaultIdentity;AddIdentity</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='AddIdentity|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE;ADDIDENTITY</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='AddDefaultIdentity|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE;ADDDEFAULTIDENTITY</DefineConstants>
   </PropertyGroup>
 
   <ItemGroup>

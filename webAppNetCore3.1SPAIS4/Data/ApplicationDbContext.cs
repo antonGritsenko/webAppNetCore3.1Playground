@@ -12,7 +12,7 @@ using webAppNetCore31SPAIS4.Models;
 
 namespace webAppNetCore31SPAIS4.Data
 {
-    public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>
+    public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser, ApplicationRole, string>
     {
         public ApplicationDbContext(
             DbContextOptions options,
